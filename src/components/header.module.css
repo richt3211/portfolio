@@ -1,0 +1,27 @@
+:root {
+    --primary-red: #580000;
+}
+
+.container {
+    background-color: var(--primary-red);
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    flex: 1 1 auto;
+}
+.spacer {
+    flex: 8 8  auto;
+}
+.linkContainer {
+    flex: 0 0 auto;
+}
+.links {
+    display: flex;
+    padding-right: 5px;
+}
+.links a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+}
