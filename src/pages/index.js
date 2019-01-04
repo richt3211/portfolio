@@ -1,5 +1,7 @@
 import React from "react"
-import Header from '../components/header';
+import Header from '../components/header/header';
+import Background from '../components/background/background';
+import About from '../components/about/about';
 import styles from './index.module.css';
 
 export default () => (
@@ -8,7 +10,8 @@ export default () => (
             <h1>This is the header</h1>
             <h2>This is the smaller header</h2>
         </Header>
-        <h1 className = {styles.header} >Portfolio site coming soon!</h1>
+        <Background></Background>
+        <About></About>
     </div>
 )
 

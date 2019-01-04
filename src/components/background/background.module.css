@@ -1,0 +1,28 @@
+.bannerBackground {
+    background-image: url('./background.jpg');
+    position:relative;
+    height: 94vh;
+}
+.bannerText {
+    position:absolute;
+    left:7%;
+    top:55%;
+    font-weight: 500;
+}
+
+.bigBannerText{
+    font-size:50px;
+}
+.smallBannerText{
+    font-size:32px;
+}
+
+.bannerTextBold {
+    color: #580000;
+}
+.profilePicture{
+    height: 85vh;
+    position: absolute;
+    bottom:-4%;
+    left: 59%;
+}
