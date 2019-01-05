@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-direction:column;
+    color: #580000;
+}
+.header {
+    padding-top: 60px;
+    font-weight: 500;
+    font-size: 50px;
+    padding-bottom: 60px;
+}
+.projectContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 70vw;
+    margin: 0 auto;
+}
+.projectContainer > div {
+    flex: 1 1 auto;
+    padding: 10px;
+}
+.projectHeader {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.line {
+    width: 1px;
+    height: 5px;
+    background-color: #580000;
+}

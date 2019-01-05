@@ -1,7 +1,8 @@
 import React from "react"
 import Header from '../components/header/header';
-import Background from '../components/background/background';
+import Banner from '../components/banner/banner';
 import About from '../components/about/about';
+import Projects from '../components/projects/projects';
 import styles from './index.module.css';
 
 export default () => (
@@ -10,8 +11,9 @@ export default () => (
             <h1>This is the header</h1>
             <h2>This is the smaller header</h2>
         </Header>
-        <Background></Background>
+        <Banner></Banner>
         <About></About>
+        <Projects></Projects>
     </div>
 )
 

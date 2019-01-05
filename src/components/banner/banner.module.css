@@ -1,5 +1,5 @@
 .bannerBackground {
-    background-image: url('./background.jpg');
+    background-image: url('./banner.jpg');
     position:relative;
     height: 94vh;
 }
@@ -25,4 +25,5 @@
     position: absolute;
     bottom:-4%;
     left: 59%;
+    z-index:1;
 }

@@ -1,17 +1,15 @@
-.aboutContainer {
-    background-color: #580000;
-    color: white;
+.skillsContainer {
+    background-color: white;
+    color: black;
     font-weight:400 !important;
-    z-index: 10;
-    position:relative;
 }
 .header {
-    font-size: 50px;
     font-weight: 500;
-    display: flex;
+    padding-top: 60px;
+    font-size: 50px;
+    display:flex;
     justify-content: center;
     align-items: center;
-    padding-top: 50px;
 }
 .text {
     display: flex;
