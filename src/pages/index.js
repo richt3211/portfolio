@@ -3,6 +3,7 @@ import Header from '../components/header/header';
 import Banner from '../components/banner/banner';
 import About from '../components/about/about';
 import Projects from '../components/projects/projects';
+import Skills from '../components/skills/skills';
 import styles from './index.module.css';
 
 export default () => (
@@ -14,6 +15,7 @@ export default () => (
         <Banner></Banner>
         <About></About>
         <Projects></Projects>
+        <Skills></Skills>
     </div>
 )
 

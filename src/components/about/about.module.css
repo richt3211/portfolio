@@ -1,6 +1,6 @@
 .aboutContainer {
-    background-color: #580000;
-    color: white;
+    background-color: white;
+    color: #580000;
     font-weight:400 !important;
     z-index: 10;
     position:relative;
