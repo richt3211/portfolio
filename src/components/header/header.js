@@ -8,9 +8,6 @@ export default () => (
 
             </img>
         </div>
-        <div className = {styles.spacer}>
-
-        </div>
         <div className = {styles.linkContainer}>
             <div className = {styles.links}>
                 <a href ="#">About</a>

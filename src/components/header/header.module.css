@@ -3,19 +3,16 @@
 }
 
 .container {
-    background-color: var(--primary-red);
+    /* background-color: var(--primary-red); */
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     height: 6vh;
 }
 .logo {
     flex: 1 1 auto;
 }
-.spacer {
-    flex: 8 8  auto;
-}
 .linkContainer {
-    flex: 0 0 auto;
+    flex: 1 1 auto;
 }
 .links {
     display: flex;
