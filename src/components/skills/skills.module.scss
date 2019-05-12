@@ -1,0 +1,25 @@
+.skillsHeading {
+margin-bottom: 30px;
+position: relative;
+    h2 {
+        font-weight: 200;
+        padding-top: 20px;
+        font-size: 30px;
+        color: #2c3e50;
+        margin-bottom: 0.5rem;
+        line-height: 1.2;
+        span {
+            font-weight: 800;
+        }
+    }
+    h2:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2px;
+        width: 50px;
+        background: #580000;
+        z-index: -1;
+    }
+}
