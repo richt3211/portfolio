@@ -1,0 +1,30 @@
+.section-heading {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 10;
+    h2 {
+        position: relative;
+        font-weight: 200;
+        padding-top: 20px;
+        font-size: 30px;
+    }
+    h2:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 2px;
+        width: 50px;
+        background: var(--primary-red);
+        z-index: -1;
+    }
+    h2 {
+        strong {
+            font-weight: 800;
+        }
+    }
+}
+
+.site-section {
+    padding: 5em 0;
+}
