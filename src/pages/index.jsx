@@ -5,6 +5,7 @@ import About from '../components/about/about.jsx';
 import Projects from '../components/projects/projects.jsx';
 import Skills from '../components/skills/skills.jsx';
 import Resume from '../components/resume/resume.jsx';
+import Contact from '../components/contact/contact.jsx';
 import '../utils/bootstrap.min.css'
 import '../utils/global.scss';
 import Footer from '../components/footer/footer.jsx';
@@ -27,7 +28,12 @@ export default () => (
         <section className="site-section site-resume">
             <Resume></Resume>
         </section>
+        <section className={`site-section bg-light`}>
+            <Contact></Contact>
+        </section>
+        <footer className={`site-footer`}>
             <Footer></Footer>
+        </footer>
     </div>
 )
 

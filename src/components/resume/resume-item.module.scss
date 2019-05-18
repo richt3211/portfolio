@@ -1,0 +1,37 @@
+.resumeItem {
+    padding: 40px;
+    background: #fff;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    border: 4px solid transparent;
+    .date {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin-bottom: 5px;
+        font-size: 12px;
+        letter-spacing: .1em;
+        color: #b3bdc6;
+        text-transform: uppercase;
+        img {
+            margin-right: 5px;
+            width: 14px;
+            height: 14px;
+            color: #b3bdc6;
+        }
+
+    }
+    h3 {
+        color: #2c3e50;
+    }
+    p {
+        color: #798a9a;
+        
+    }
+    .school {
+        display: block;
+        font-size: 20px;
+        color: #2c3e50;
+    }
+}
