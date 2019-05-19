@@ -1,35 +1,34 @@
 import React from 'react';
-import styles from './footer.module.css';
+import styles from './footer.module.scss';
 import Resume from '../skills/rwt-resume.pdf';
-import { FaGithub } from 'react-icons/fa';
+import github from './github.svg';
+import instagram from './instagram.svg';
+import linkedin from './linkedin.svg';
 
+const year = new Date().getFullYear();
 
 export default () => (
-    <div className={styles.footerContainer}>
-        <div className={styles.aboutContainer}>
-            <div className={styles.contactContainer}>
-                <span className={styles.aboutHeader}>CONTACT</span>
-                <div>
-                    <span>Draper, UT</span>
-                    <span>richardtimpson80@gmail.com</span>
-                    <span>435-251-7755</span>
-                </div>
-            </div>
-            <div className={styles.resumeContainer}>
-                <span className={styles.aboutHeader}>RESUME</span>
-                <a href ={Resume}>Download</a>
+    <div className={`container`}>
+        <div className={`row mb-3`}>
+            <div className={`col-md-12 text-center `} >
+                <p className={styles.p}>
+                    <a href="#" className={`${styles.socialItem}`} >
+                        <img src={github}></img>
+                    </a>
+                    <a href="#" className={`${styles.socialItem}`} >
+                        <img src={instagram}></img>
+                    </a>
+                    <a href="#" className={`${styles.socialItem}`} >
+                        <img src={linkedin}></img>
+                    </a>
+                </p>
             </div>
         </div>
-        <span className={styles.line}></span>
-        <div className={styles.copywriteContainer}>
-            <span> 2019 Copywrite: Richard Timpson</span>
-            <div className={styles.socialMedia}>
-                <a href="#"><FaGithub></FaGithub></a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
-                <a href="#">Link 4</a>
-
-            </div>
+        <div className={`row`}>
+            <p className={`col-12 text-center`}>
+                Copyright @ {year} Richard Timpson. All Rights Reserved | 
+                This webiste was based on a template by <a href="https://colorlib.com" target="_blank" className={`text-primary ${styles.a}`}>Colorlib</a>
+            </p>
         </div>
     </div>
 );

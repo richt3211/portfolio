@@ -1,0 +1,94 @@
+.siteNavbar {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    background: none !important;
+    position: absolute !important;
+    top: 20px;
+    width: 100%;
+    z-index: 200;
+    @media screen and (max-width: 991.98px) {
+        background: #fff !important;
+        top: 0;
+    }
+    // background: transparent !important;
+}
+
+.scrolled {
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.09);
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+    div {
+        a {
+            color: rgba(0, 0, 0, 0.7) !important;
+            border-color:  rgba(0, 0, 0, 0.7) !important;
+        }
+    }
+}
+
+.scrolled.sleep {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-transform: translateY(-90%);
+    -ms-transform: translateY(-90%);
+    transform: translateY(-90%);
+    background: var(--primary-red) !important;
+}
+
+.scrolled.awake {
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    -webkit-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    background: #fff !important;
+}
+
+.siteNavbar.bg-light {
+    background: transparent !important;
+}
+
+.button {
+    display: inline-block;
+    border: 2px solid #fff;
+    padding: 5px 20px;
+    color: #fff !important;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    cursor: pointer;
+    @media screen and (max-width: 991.98px) {
+        display: inline-block!important;
+        font-size: 18px !important;
+        border: 2px solid #000 !important;
+        padding: 2px 10px !important;
+        color: #000 !important;
+    }
+}
+
+.link {
+    color: #fff !important;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: .1em;
+    position: relative;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    padding: 15px 20px !important;
+    cursor: pointer;
+}
+
+.link.active {
+    color: var(--primary-red) !important;
+}

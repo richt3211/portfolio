@@ -1,7 +1,7 @@
 import Typography from 'typography';
 
 const typography = new Typography({
-    baseFontSize: '18px',
+    baseFontSize: '16px',
     bodyFontFamily: [
         "-apple-system",
         "BlinkMacSystemFont", 
