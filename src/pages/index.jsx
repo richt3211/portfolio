@@ -11,9 +11,6 @@ import '../utils/global.scss';
 import Footer from '../components/footer/footer.jsx';
 import styles from './index.module.scss';
 import * as Scroll from 'react-scroll';
-import $ from 'jquery';
-// const jquery = require('../js/vendor/jquery.min.js');
-// const customScript = require("../js/custom.js");
 
 let Element = Scroll.Element;
 
