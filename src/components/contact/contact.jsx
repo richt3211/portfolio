@@ -12,7 +12,13 @@ export default () => (
                 </div>
             </div>
             <div className={`col-md-7 mb-5 mb-md-0`}>
-                <form action class={`site-form`}>
+                <form 
+                    action 
+                    method="post" 
+                    class={`site-form`}
+                    data-netlify="true"
+                    data-netlify-honeypot="bot-field"
+                >
                     <h3 class={`mb-5`}>
                         Get in Touch
                     </h3>
@@ -36,6 +42,9 @@ export default () => (
                         <input type="submit" cols="30" rows="10" value="Send Message" className={`${styles.button} btn btn-primary px-4 py-3`}
                         ></input>
                     </div>
+                    {/* used so that netlify can detect bots */}
+                    <input type="hidden" name="bot-field" />
+                    <input type="hidden" name="form-name" value="contact" />
                 </form>
             </div>
             <div className={`col-md-5 pl-md-5`}>
