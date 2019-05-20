@@ -1,15 +1,6 @@
 import React from 'react';
-import * as Scroll from 'react-scroll';
 import { Link, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
 import styles from './header.module.scss';
-import $ from 'jquery';
-
-
-// let Link = Scroll.link;
-// let Element = Scroll.Element;
-// let Events = Scroll.Events;
-// let scroll = Scroll.animateScroll;
-// let scrollSpy = Scroll.scrollSpy;
 
 export class Header extends React.Component {
     constructor(props) {
@@ -37,7 +28,8 @@ export class Header extends React.Component {
         scroll.scrollToTop();
     }
     handleScroll(event) {
-        var st = $(window).scrollTop();
+        var st = window.pageYOffset;
+        console.log(window);
         if (st > this.state.lastScrollTop) {
             // downscroll code
             this.setState({ active: false });

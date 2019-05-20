@@ -3,8 +3,6 @@ import PropTypes from "prop-types"
 
 export default class HTML extends React.Component {
     render() {
-        const bootstrap = <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" ></script>
-        const custom = <script src="js/custom.js" ></script>
         return (
             <html {...this.props.htmlAttributes}>
                 <head>
@@ -14,14 +12,6 @@ export default class HTML extends React.Component {
                         name="viewport"
                         content="width=device-width, initial-scale=1, shrink-to-fit=no"
                     />
-                    <script
-                        src="https://code.jquery.com/jquery-3.3.1.min.js"
-                        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-                        crossOrigin="anonymous"
-                    />
-                    {/* <script src="./js/custom.js"></script> */}
-                    {/* <script src="./js/vendor/bootstrap.min.js"></script> */}
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
                     {this.props.headComponents}
                 </head>
                 <body {...this.props.bodyAttributes}>
