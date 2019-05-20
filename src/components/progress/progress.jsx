@@ -4,7 +4,7 @@ const progressBarStyles = `progress-bar ${styles.progressBar}`
 export default (props) => (
     <div className={styles.skill}>
         <h3>{props.name}</h3>
-        <div class="progress-bar" className={styles.progress}>
+        <div className={styles.progress}>
             <div 
                 className={progressBarStyles}
                 role="progressbar" 
