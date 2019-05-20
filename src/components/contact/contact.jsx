@@ -13,28 +13,29 @@ export default () => (
             </div>
             <div className={`col-md-7 mb-5 mb-md-0`}>
                 <form 
-                    method="post" 
+                    name="contact"
+                    method="POST" 
                     class={`site-form`}
                     data-netlify="true"
-                    data-netlify-honeypot="bot-field"
+                    netlify-honeypot="bot-field"
                 >
                     <h3 class={`mb-5`}>
                         Get in Touch
                     </h3>
                     <div className={`form-group`}>
-                        <input type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Name"
+                        <input name="name" type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Name"
                         ></input>
                     </div>
                     <div className={`form-group`}>
-                        <input type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Email"
+                        <input name="email" type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Email"
                         ></input>
                     </div>
                     <div className={`form-group`}>
-                        <input type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Phone"
+                        <input name="phone" type="text" className={`${styles.formControl} form-control px-3 py-4`}placeholder="Your Phone"
                         ></input>
                     </div>
                     <div className={`form-group`}>
-                        <textarea type="text" cols="30"rows="10"className={`${styles.formControl} form-control px-3 py-4 mb-5`} placeholder="Write a message"
+                        <textarea name="message" type="text" cols="30"rows="10"className={`${styles.formControl} form-control px-3 py-4 mb-5`} placeholder="Write a message"
                         ></textarea>
                     </div>
                     <div className={`form-group`}>
