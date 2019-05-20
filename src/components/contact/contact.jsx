@@ -13,7 +13,6 @@ export default () => (
             </div>
             <div className={`col-md-7 mb-5 mb-md-0`}>
                 <form 
-                    action 
                     method="post" 
                     class={`site-form`}
                     data-netlify="true"
