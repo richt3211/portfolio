@@ -29,8 +29,8 @@ export default () => (
                 link="https://github.com/richt3211/CS-3500/tree/master/SpaceWars">
             </Project>
             <Project 
-                name="Spreadsheet" 
-                description="C# | .NET Framework" 
+                name="Multi User Spreadsheet" 
+                description="C/C++ | C# | .NET Framework" 
                 image={Spreadsheet} 
                 link="https://github.com/richt3211/CS-3500/tree/master/SpreadSheet">
             </Project>

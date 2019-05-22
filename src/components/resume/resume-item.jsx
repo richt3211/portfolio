@@ -10,12 +10,14 @@ export default (props) => (
             {/* {props.date} */}
             <p>{props.date}</p>
         </span>
-        <h3>{props.title}</h3>
+        <a className={styles.headerLink} href={props.titleLink} target="_blank">
+            {props.title}
+        </a>
         <p>
             {props.description}
         </p>
-        <span className={styles.school}>
+        <a className={styles.school} href={props.locationLink} target="_blank">
             {props.location}
-        </span>
+        </a>
     </div>
 )

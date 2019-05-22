@@ -5,6 +5,8 @@
     -o-transition: .3s all ease;
     transition: .3s all ease;
     border: 4px solid transparent;
+    display:block;
+    text-decoration:none;
     .date {
         display: flex;
         align-items: center;
@@ -22,8 +24,17 @@
         }
 
     }
-    h3 {
+    a.headerLink {
+        text-decoration: none;
         color: #2c3e50;
+        font-weight: 200 !important;
+        font-size: 1.75rem !important;
+    }
+    a.headerLink:hover {
+        color: var(--primary-red);
+    }
+    a.headerLink:active {
+        color: var(--primary-red);
     }
     p {
         color: #798a9a;
