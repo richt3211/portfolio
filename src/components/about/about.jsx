@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './about.module.scss';
 import profile from "./profile-picture.jpg";
+import Resume from './resume.pdf';
 import { Link } from 'react-scroll';
 export default () => (
     <div className={`row mb-5 align-items-center`}>
@@ -33,7 +34,7 @@ export default () => (
                     spy={true}
                 >Hire Me</Link>
 
-                <a className={`btn btn-secondary px-4 py-2 btn-sm smoothscroll`} href="#">
+                <a className={`btn btn-secondary px-4 py-2 btn-sm smoothscroll`} href={Resume} download>
                     Download CV
                 </a>
             </p>
