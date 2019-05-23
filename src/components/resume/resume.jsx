@@ -20,7 +20,7 @@ export default () => (
                 </div>
             </div>
             <div className="row">
-                <div className="col-md-6">
+                <div className={`col-md-6`}>
                     <ResumeItem
                         date="August 2018 - May 2022 (expected)"
                         title="BS/MS in Computer Science"
@@ -79,7 +79,7 @@ export default () => (
                     <ResumeItem
                         date="May 2017 - Aug 2017"
                         title="QA Intern"
-                        description="Assistant to the main operations manager and worked in many areas including QA for existing and new software features, user testing and surveying, and general data entry and operations work for several different business clients."
+                        description="Assistant to the main operations manager and worked in many areas including QA for existing and new software features..."
                         location="Conversion Technology LLC | Hildale, Utah"
                         titleLink="https://www.linkedin.com/in/richard-timpson-0b234b12a/"
                         locationLink="https://www.linkedin.com/company/conversion-technologies-llc/about/"

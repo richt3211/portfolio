@@ -13,6 +13,13 @@
         background: #fff !important;
         top: 0;
     }
+     > div {
+        justify-content: flex-start !important;
+        div {
+            flex-grow: unset !important;
+            flex-basis: 83% !important;
+        }
+    }
     // background: transparent !important;
 }
 
@@ -91,4 +98,12 @@
 
 .link.active {
     color: var(--primary-red) !important;
+}
+
+.UL {
+    margin: 0px;
+}
+
+.flexContainer {
+
 }

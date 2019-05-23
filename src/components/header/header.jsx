@@ -49,15 +49,9 @@ export class Header extends React.Component {
                 ${this.state.active ? styles.awake : styles.sleep} 
                 ${styles.siteNavbar}`} id="pb-navbar">
                 <div className={`container`}>
-                    {/* <button className={`navbar-toggler`} type="button" data-toggle="collapse" */}
                     <button
                         className={`navbar-toggler`}
                         type="button"
-                    // data-toggle="collapse" 
-                    // data-target="#navbarsExample09" 
-                    // aria-controls="navbarsExample09" 
-                    // aria-expanded="false" 
-                    // aria-label="Toggle navigation">
                     >
                         <span className={`navbar-toggler-icon`}></span>
                     </button>
@@ -70,7 +64,7 @@ export class Header extends React.Component {
                         delay={500}>
                         RWT</Link>
                     <div className={`collapse navbar-collapse justify-content-md-center`} id="navbar">
-                        <ul className={`navbar-nav`}>
+                        <ul className={`navbar-nav ${styles.UL}`}>
                             <li className={`nav-item`}>
                                 <Link
                                     onClick={this.scrollToTop}
